@@ -6,7 +6,7 @@ import { SearchIcon } from "lucide-react";
 export default function Search() {
   return (
     <div className="flex gap-1">
-      <Input className="w-full bg-muted" />
+      <Input className="w-full bg-accent" />
 
       <Button className="bg-accent p-3 text-primary hover:bg-primary hover:text-accent transition-colors duration-300">
         <SearchIcon />

@@ -4,9 +4,10 @@ import { MenuIcon } from "lucide-react";
 
 export default function Header() {
   return (
-    <div className="bg-accent p-3 mb-2 flex items-center justify-between rounded-b-md">
+    <div className="bg-popover p-3 mb-2 flex items-center justify-between rounded-b-md">
       header
-      <Button variant="outline" className="bg-card p-2">
+
+      <Button variant="outline" className="p-3 bg-card hover:bg-card-foreground hover:text-background transition-colors duration-300">
         <MenuIcon />
       </Button>
     </div>
